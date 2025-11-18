@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padaria Pão & Prosa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Pão & Prosa</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <h2>Pães quentinhos!</h2>
+      <p>Tradição, sabor e carinho em cada fornada.</p>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="produtos-container">
+      <div class="produto">
+        <img src="img/pao-frances.jpg" alt="Pão Francês">
+        <h3>Pão Francês</h3>
+        <p>Crocante por fora e macio por dentro. Ideal para o café da manhã.</p>
+      </div>
+      <div class="produtos-container">
+      <div class="produto">
+        <img src="img/croissant.jpg" alt="croissant">
+        <h3>Croissant</h3>
+        <p>Crocante por fora e macio por dentro. Ideal para o café da manhã.</p>
+        </div>  
+      <div class="produto">
+        <img src="img/bolo-cenoura.jpg" alt="Bolo de Cenoura">
+        <h3>Bolo de Cenoura</h3>
+        <p>Com cobertura de chocolate, feito com ingredientes frescos e amor.</p>
+      </div>
+      <div class="produto">
+        <img src="img/cafe.jpg" alt="Café Fresco">
+        <h3>Café Fresco</h3>
+        <p>Acompanhe seus pães com um café quentinho e aromático.</p>
+     </div>
+
+  </section>
+
+  <!-- Sobre Nós -->
+  <section id="sobre" class="sobre">
+    <h2>Sobre Nós</h3>
+    <p>
+      A Padaria <strong>Pão & Prosa</strong> nasceu do sonho do Seu Joaquim, um padeiro apaixonado pela arte da panificação e pelas receitas tradicionais que atravessam gerações. Desde muito jovem, ele aprendeu com sua família o valor do pão quentinho feito com cuidado, paciência e respeito pelos ingredientes.
+
+Há mais de 20 anos, o forno da Pão & Prosa permanece aceso todos os dias, trazendo ao bairro o aroma irresistível de pães, bolos e quitutes preparados com carinho. Cada receita carrega um pedaço da história do Seu Joaquim, que sempre acreditou que pão não é apenas alimento, mas também afeto, memória e acolhimento.
+    </p>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato">
+    <h2>Fale Conosco</h2>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>📍 Rua André Vidal, 134 - Bairro Tomba | ☎️ (75) 91346-9999</p>
+    <p>Siga-nos nas redes sociais:</p>
+    <div class="social">
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a>
+    </div>
+    <button id="btnTopo">⬆️ Voltar ao topo</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
